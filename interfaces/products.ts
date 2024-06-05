@@ -10,8 +10,10 @@ export interface IProduct {
     title: string;
     type: ITypes;
     gender: 'hombre' | 'mujer' | 'unisex';
-  }
-  
+ 
+  createdAt: string;
+  updatedAt: string;
+}
   export type ISizes = 'XS' | 'S' | 'M' | 'L' | 'XL' | 'XXL' | '3XL';
   export type ITypes = 'camisetas' | 'buzos' | 'gorras';
   
